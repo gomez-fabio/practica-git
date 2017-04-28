@@ -1,5 +1,5 @@
 **- ¿Qué comando utilizaste en el paso 11? ¿Por qué?**
-```git reset --hard HEAD~1``. Me permite moverme en el grafo un paso atras ***(~1)***, con el modificador ***--hard*** cambio el ***working copy***.
+```git reset --hard HEAD~1```. Me permite moverme en el grafo un paso atras ***(~1)***, con el modificador ***--hard*** cambio el ***working copy***.
 
 **- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?**
   Localice el ***hash*** abreviado del ***commit*** que acababa de deshacer con ```git reflog``` y luego ```git reset --hard <hash>``` (el hash abreviado del ***commit***), 
